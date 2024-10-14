@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <title>Food Blog</title>
+</head>
+<body class="bg-gray-50">
+    <nav class="flex justify-between px-12 md:px-28 py-5 items-center bg-gray-100">
+        <div class="brand">
+            <h1 class="text-3xl md:text-5xl font-bold font-serif tracking-widest">Kd's Blog</h1>
+            <p class="text-center font-bold">Food and Drinks</p>
+        </div>
+        <ul class="hidden md:flex space-x-6">
+            <li>
+                <a href="home.html" class="text-sm">HOME</a>
+            </li>
+            <li>
+                <a href="food.html" class="text-sm">FOOD</a>
+            </li>
+            <li>
+                <a href="drink.html" class="text-sm">DRINK</a>
+            </li>
+            <li>
+                <a href="restaurant.html" class="text-sm">BEST RESTAURANTS</a>
+            </li>
+            <li>
+                <a href="about.html" class="text-sm">ABOUT</a>
+            </li>
+            <li>
+                <a href="work.html" class="text-sm">WORK WITH ME</a>
+            </li>
+        </ul>
+        <div class="space-y-1 cursor-pointer block md:hidden" id="hamburger">
+            <span class="w-6 h-[2px] bg-pink-600 block rounded-full"></span>
+            <span class="w-6 h-[2px] bg-pink-600 block rounded-full"></span>
+            <span class="w-6 h-[2px] bg-pink-600 block rounded-full"></span>
+        </div>
+    </nav>
+    <section>
+        <ul class="space-y-6 bg-white pl-5 h-0 transition-all duration-150 ease-in fixed z-10 left-0 w-full overflow-hidden" id="dropDownNav">
+            <li>
+                <a href="home.html" class="text-sm">HOME</a>
+            </li>
+            <li>
+                <a href="food.html" class="text-sm">FOOD</a>
+            </li>
+            <li>
+                <a href="drink.html" class="text-sm">DRINK</a>
+            </li>
+            <li>
+                <a href="restaurant.html" class="text-sm">BEST RESTAURANTS</a>
+            </li>
+            <li>
+                <a href="about.html" class="text-sm">ABOUT</a>
+            </li>
+            <li>
+                <a href="work.html" class="text-sm">WORK WITH ME</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- <section class="sm:w-[95%] md:w-[85%] xl:w-[75%] mx-auto mt-24">
+        <h1 class="text-pink-600 text-4xl font-mono font-semibold pl-10 tracking-widest">About</h1>
+        <div class="h-[1px] bg-gray-200 mt-14 mb-8"></div>
+    </section> -->
+
+    <section class="h-[70vh] bg-[url('../images/kids.jpg')] bg-center relative">
+        <div class="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[90%]">
+            <h6 class="text-sm tracking-widest font-serif text-white mb-7 text-center md:text-left">ABOUT ME</h6>
+            <h1 class="text-white font-serif text-[30px]">Hello, I'm Jordan Walsh, a Food and Drinks blogger from Florida. I have started blogging in 2024</h1>
+        </div>
+    </section>
+    <section class="grid md:grid-cols-2 gap-12 my-28 w-[95%] md:w-[90%] mx-auto">
+        <h3 class="text-2xl">I visit different hotels, restaurants, street food places to taste their Food/Drinks</h3>
+        <div>
+            <h5 class="text-[13px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi maiores iusto, consequuntur incidunt voluptatum magnam possimus in!</h5>
+            <p class="text-gray-500 my-11">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium ipsa incidunt, id velit facilis saepe pariatur a consectetur magnam vitae dolore similique adipisci animi autem culpa debitis voluptates nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero maxime consequuntur ipsum dolore impedit blanditiis, ratione eum ex, repellendus delectus? Recusandae sed quasi ullam, eius at facere similique? Temporibus?
+            </p>
+            <p class="text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam magni dolorem velit sapiente similique possimus, quaerat totam explicabo, at incidunt corporis, aliquid exercitationem quam hic et odit. Adipisci, soluta dolorem?
+            </p>
+        </div>
+    </section>
+
+    <section class="relative h-[90vh] mt-60 w-[95%] md:w-[90%] mx-auto">
+        <div class="space-y-10 hidden md:block absolute top-[-120px] left-0 bg-white w-[50%] px-20 py-24">
+            <h1 class="text-4xl"><q>Association of Food Writers</q> Award Winners 2018 / 2019</h1>
+            <p class="text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nesciunt natus aliquid qui laborum aspernatur eius itaque, accusantium voluptatem, quis fuga similique sed quo non beatae nemo nihil ipsam. Itaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <img class="w-full h-full" src="../images/food4.jpg" alt="Image not found">
+    </section>
+    <div class="space-y-10 block md:hidden bg-white px-20 py-24">
+        <h1 class="text-4xl"><q>Association of Food Writers</q> Award Winners 2018 / 2019</h1>
+        <p class="text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nesciunt natus aliquid qui laborum aspernatur eius itaque, accusantium voluptatem, quis fuga similique sed quo non beatae nemo nihil ipsam. Itaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+    </div>
+
+    <section class="w-[95%] md:w-[90%] mx-auto py-24 bg-[url('../images/mortal.jpg')]">
+        <h4 class="text-white text-center text-sm font-semibold tracking-widest">FOOD, DRINK AND RESTAURANTS REVIEWS</h4>
+        <h1 class="text-4xl text-white text-center font-normal font-serif mt-8 mb-10">Join Our 100,000+ Subscribers List Today!</h1>
+        <div class="text-center space-y-7">
+            <input class="inline-block border-[0.5px] border-gray-300 text-xl py-3 px-4 w-[90%] md:w-[40%]" type="text" placeholder="Email Address">
+            <br>
+            <button class="text-white bg-gray-400 text-md font-semibold tracking-widest py-5 px-8 text-md rounded-md">SUBSCRIBE NOW</button>
+        </div>
+    </section>
+
+    <section class="my-28 w-[95%] md:w-[85%] mx-auto">
+        <h6 class="text-center text-sm tracking-widest mb-16 font-semibold text-gray-600">WHERE WE'VE BEEN FEATURED</h6>
+        <div class="grid grid-cols-2 gap-x-10 md:grid-cols-4 shadow-xl">
+            <div class="text-center py-28">
+                <p class="font-bold text-3xl text-gray-700"><i class="fa fa-home text-gray-500"></i> logoipusm</p>
+            </div>
+            <div class="text-center py-28 border-l-[0.5px] border-gray-4">
+                <p class="font-bold text-3xl text-gray-700"><i class="fa fa-cog text-gray-500"></i> logoipusm</p>
+            </div>
+            <div class="text-center py-28 border-l-[0.5px] hidden md:block border-gray-4">
+                <p class="font-bold text-3xl text-gray-700"><i class="fa fa-trash text-gray-500"></i> logoipusm</p>
+            </div>
+            <div class="text-center py-28 border-l-[0.5px] hidden md:block border-gray-4">
+                <p class="font-bold text-3xl text-gray-700"><i class="fa fa-user-lock text-gray-500"></i> logoipusm</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[url('../images/fourth.jpg')] bg-left-top py-24">
+        <h6 class="text-sm text-white text-center uppercase font-semibold tracking-widest">Are you a restaurant owner</h6>
+        <h2 class="text-2xl md:text-4xl text-white text-center my-8">Contact Jordan Walsh for a meaningful review for <br>your restaurant.</h2>
+        <div class="text-center">
+            <button class="text-xl text-white bg-pink-900 py-5 px-7 font-semibold">GET IN TOUCH</button>
+        </div>
+    </section>
+
+    <!-- <div class="mt-20 mapsection"></div>
+        <h3 class="text-gray-600 text-xl font-semibold mb-6">See current Location on the map </h3>
+        <div id="map" style="height: 500px; width: 100%;"></div>
+    </div> -->
+
+    <section class="py-32 bg-black">
+        <h1 class="text-white text-5xl text-center">Jordan Walsh</h1>
+        <h4 class="text-center text-gray-500 text-xl mt-1 mb-36">Food and Drinks Blogger</h4>
+        <ul class="space-y-4 md:space-y-0 md:flex md:justify-center md:space-x-16">
+            <li class="text-center">
+                <a href="" class="text-pink-700 text-sm">HOME</a>
+            </li>
+            <li class="text-center">
+                <a href="" class="text-white text-sm">FOOD</a>
+            </li>
+            <li class="text-center">
+                <a href="" class="text-white text-sm">DRINKS</a>
+            </li>
+            <li class="text-center">
+                <a href="" class="text-white text-sm">BEST RESTAURANTS</a>
+            </li>
+            <li class="text-center">
+                <a href="" class="text-white text-sm">ABOUT</a>
+            </li>
+            <li class="text-center">
+                <a href="" class="text-white text-sm">WORK WITH ME</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="py-8 bg-black space-y-6 border-t-[1px] border-white">
+        <div class="text-center space-x-4">
+            <i class="fab fa-youtube text-white text-2xl"></i>
+            <i class="fab fa-facebook text-white text-2xl"></i>
+            <i class="fab fa-instagram text-white text-2xl"></i>
+            <i class="fab fa-twitter text-white text-2xl"></i>
+        </div>
+        <p class="text-white text-center">copyright &copy; 2024 Food & Drinks Blogger | Powered by Food and Drinks Blogger</p>
+    </section>
+
+    <script src="../js/all.min.js"></script>
+    <script>
+        const hamburger = document.getElementById("hamburger")
+        const dropDownNav = document.getElementById("dropDownNav")
+        let navStat = "close"
+        hamburger.onclick = function(event){
+            // dropDownNav.classList.toggle("h-0")
+            if (navStat === "close"){
+                dropDownNav.style.height = dropDownNav.scrollHeight + 15 + "px"
+                navStat = "open"
+                dropDownNav.classList.toggle("py-4")
+            }
+            else{
+                dropDownNav.style.height = 0 + "px"
+                navStat = "close"
+                dropDownNav.classList.toggle("py-4")
+            }
+        }
+        </script>
+</body>
+</html>
